@@ -9,7 +9,7 @@
                 </div>
                 <div class="text">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam aspernatur repellendus iste, quos odit atque tenetur consectetur minima suscipit tempore modi, architecto repellat beatae, porro itaque autem voluptatibus similique deserunt cum molestiae.</p>
-                    <a href="view_article.php">Lire l'article</a>
+                    <a href="?page=view_article">Lire l'article</a>
                 </div>
             </div><div class="article">
                 <div class="img">
@@ -17,7 +17,7 @@
                 </div>
                 <div class="text">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam aspernatur repellendus iste, quos odit atque tenetur consectetur minima suscipit tempore modi, architecto repellat beatae, porro itaque autem voluptatibus similique deserunt cum molestiae.</p>
-                    <a href="view_article.php">Lire l'article</a>
+                    <a href="?page=view_article">Lire l'article</a>
                 </div>
             </div><div class="article">
                 <div class="img">
@@ -25,7 +25,7 @@
                 </div>
                 <div class="text">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam aspernatur repellendus iste, quos odit atque tenetur consectetur minima suscipit tempore modi, architecto repellat beatae, porro itaque autem voluptatibus similique deserunt cum molestiae.</p>
-                    <a href="view_article.php">Lire l'article</a>
+                    <a href="?page=view_article">Lire l'article</a>
                 </div>
             </div>
             
