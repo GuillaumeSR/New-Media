@@ -88,7 +88,7 @@ class User {
         if (PHP_OS == 'Darwin') {
             try {
                 $conn = new PDO(
-                    'mysql:host=localhost;dbname=fast_crous;charset=utf8',
+                    'mysql:host=localhost;dbname=newmedia;charset=utf8',
                     'root',
                     'root'
                 );
@@ -100,7 +100,7 @@ class User {
         } elseif (PHP_OS == 'WINNT') {
             try {
                 $conn = new PDO(
-                    'mysql:host=localhost;dbname=fast_crous;charset=utf8',
+                    'mysql:host=localhost;dbname=newmedia;charset=utf8',
                     'root',
                     ''
                 );

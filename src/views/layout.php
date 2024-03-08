@@ -13,11 +13,33 @@
             <div class="logo">
                 <img src="../assets/img/blog-1027861_640.webp" alt="logo">
             </div>
-            <ul>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-            </ul>
+            <div class="navbar">
+                <?php if (!isset($_SESSION['logged']) || !$_SESSION['logged']) { ?>
+                    <a href="?page=homepage">Retour</a>
+                    <a href="?page=login" class='right'>Login/Register</a>
+                <?php } elseif ($_SESSION['logged'] & $_SESSION['admin_status']) { ?>
+                    <a href="?page=homepage">Retour</a>
+                    <a href="?page=user_articles" class='right'>My articles</a>
+                    <a href="?page=disconnect" class='right'>Disconnect</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Admin ▼</button>
+                        <div class="dropdown-content">
+                            <a href="?page=modify_category">Categories</a>
+                            <a href="?page=best_sold">Gestion</a>
+                        </div>
+                    </div>
+                <?php } else { ?>
+                    <a href="?page=homepage">Retour</a>
+                    <a href="?page=disconnect" class='right'>Disconnect</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Customer ▼</button>
+                        <div class="dropdown-content">
+                            <a href="?page=profile">Profile</a>
+                            <a href="?page=user_articles">My articles</a>
+                        </div>
+                    </div>
+                <?php } ?>
+            </div>
         </nav>
     </header>
     <main>

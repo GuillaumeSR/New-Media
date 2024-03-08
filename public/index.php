@@ -1,13 +1,15 @@
 <?php
 
-// require '../classes/User.class.php';
+require '../classes/User.class.php';
 
 session_start();
 
 require '../src/models/connection.php';
 
 $availableRoutes = [
-	'homepage', 'view_article', 'modification_articles'
+	'homepage', 'view_article', 'modification_articles',
+	'login', 'register', 'disconnect',
+	'user_articles'
 ];
 
 $route = 'homepage';
