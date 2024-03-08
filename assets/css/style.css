@@ -1,85 +1,81 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
+.container {
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
 
-body {
-  font-family: Montserrat;
-  line-height: 1.4;
-  font-size: 18px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
 }
-img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+
+nav ul{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: end;
+    align-content: end;
+    /* width: 25%; */
+    list-style-type: none;
+
 }
-a {
-  color: #08c;
-  font-weight: bold;
-  text-decoration: none;
+
+nav li {
+    margin: 10px;
+    border-bottom: 1px solid black;
 }
-.hentry {
-  max-width: 46em;
-  margin: auto;
+
+.logo {
+    width: 5%;
 }
-.entry-title {
-  grid-area: header;
-  
-  text-transform: uppercase;
-  margin: 1em 0 0.5em;
-  line-height: 1;
+
+.logo img {
+    border-radius: 50%;
+    width: 100%;
 }
-.featured-image {
-  grid-area: featimg;
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    /* width: 100%; */
 }
-.entry-meta {
-  grid-area: meta;
-  margin-bottom: 2em;
+
+.parent {
+    display: flex;
+    flex-direction: column;
 }
-.entry-content {
-  grid-area: content;
+
+.article {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    border-right: 1px solid black;
+    padding-right: 10%;
 }
-.entry-footer {
-  grid-area: footer;
-  text-align: right;
-  border-top: 1px solid #777;
-  margin-top: 1em;
+
+.text{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
-.author, .date {
-  color: #777;
+
+.img {
+    width: 18rem;
 }
-.author+.date:before {
-    content: " | ";
+
+.img img {
+    width: 100%;
 }
-.author {
-  a {
-    color: #000;
-    font-weight: bold;
-    text-decoration: none;
-  }
-}
-@media (min-width: 40em) {
-  .hentry {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 20px;
-    grid-template-areas: "header header header header" "meta meta meta meta" "featimg featimg featimg featimg" "content content content content" "footer footer footer footer";
-  }
-  .entry-title {
-    font-size: 2.5em;
-    margin-bottom: 0;
-  }
-}
-@media (min-width: 50em) {
-  .hentry {
-    grid-template-areas: "header header header header" "featimg featimg featimg featimg" "meta content content content" "footer footer footer footer";
-  }
-  .author, .date {
-    display: block;
-    margin: 1em 0;
-  }
-  .author+.date:before {
-    display: none;
-  }
-  .entry-title {
-    font-size: 3m;
-    margin-bottom: 0.7em;
-  }
+
+button{
+    background-color: antiquewhite;
+    border: transparent;
+    padding: 15px;
+    text-decoration: solid;
+    cursor: pointer;
 }
