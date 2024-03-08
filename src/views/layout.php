@@ -11,7 +11,7 @@
     <header>
     <nav class="container">
             <div class="logo">
-                <img src="./assets/blog-1027861_640.webp" alt="logo">
+                <img src="../assets/img/blog-1027861_640.webp" alt="logo">
             </div>
             <ul>
                 <li>Lorem</li>
@@ -23,7 +23,7 @@
     <main>
         <?php require '../src/controllers/' . $route . '_controller.php'; ?>
     </main>
-    <footer>
+    <footer class="container">
         <p>&copy; 2024 New Media. All rights reserved.</p>
     </footer>
 </body>
