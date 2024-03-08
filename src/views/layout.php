@@ -9,7 +9,16 @@
 </head>
 <body>
     <header>
-        
+    <nav class="container">
+            <div class="logo">
+                <img src="./assets/blog-1027861_640.webp" alt="logo">
+            </div>
+            <ul>
+                <li>Lorem</li>
+                <li>Lorem</li>
+                <li>Lorem</li>
+            </ul>
+        </nav>
     </header>
     <main>
         <?php require '../src/controllers/' . $route . '_controller.php'; ?>
