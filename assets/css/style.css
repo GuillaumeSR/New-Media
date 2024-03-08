@@ -72,10 +72,18 @@ section{
     width: 100%;
 }
 
-button{
+a{
     background-color: antiquewhite;
     border: transparent;
     padding: 15px;
     text-decoration: solid;
     cursor: pointer;
+    text-align: center;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 2%;
 }
