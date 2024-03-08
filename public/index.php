@@ -7,7 +7,7 @@ session_start();
 require '../src/models/connection.php';
 
 $availableRoutes = [
-	'homepage'
+	'homepage', 'modification_articles'
 ];
 
 $route = 'homepage';
